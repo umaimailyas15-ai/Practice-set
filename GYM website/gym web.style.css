@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: black;
+    height: 110vh;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+}
+
+.left {
+    position: absolute;
+    display: inline-block;
+    left: 130px;
+    top: 20px;
+}
+
+.left img {
+    width: 100px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.center {
+    background-color: black;
+    display: block;
+    width: 33%;
+    margin: 40px auto;
+    padding: 22px 7px;
+    border-radius: 24px;
+    border: 2px solid grey;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000, -2px -2px 4px #3d3b3b;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 12px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(153, 146, 146);
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    top: 40px;
+}
+
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: black;
+    padding: 3px 6px;
+    margin: 18px 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.mainline {
+    position: absolute;
+    text-align: center;
+    left: 70px;
+    color: white;
+    background-color: black;
+    border: 2px solid rgb(73, 69, 69);
+    border-radius: 10px;
+    width: 35%;
+    margin: 48px 80px;
+    padding: 15px;
+}
+
+.container {
+    position: absolute;
+    top: 140px;
+    width: 35%;
+    margin: 120px 150px;
+    padding: 20px 40px;
+    background-color: black;
+    border-radius: 10px;
+    border: 3px solid rgb(73, 69, 69);
+}
+
+.form-group input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    width: 80%;
+    padding: 10px 32px;
+    margin: 8px auto;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.container button {
+    width: 80%;
+    margin: auto 40px;
+    padding: 6px;
+}
